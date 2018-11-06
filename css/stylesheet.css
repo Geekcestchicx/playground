@@ -1,8 +1,84 @@
 body {
   font: 15px/1.5 sans-serif, helvetica;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
 }
 
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
 header {
-  font-family: "Rubik";
+  font-family: "Audrey-normal";
   font-size: 22px;
+  background-color: #042b5a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #a18fd8 3px solid;
+}
+
+header a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+header li {
+  display: inline-block;
+  padding: 0 20px 10px 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight,
+header .current a {
+  color: #a18fd8;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/* Showcase */
+
+#showcase {
+  min-height: 400px;
+  background: url("../img/colours.jpg") no-repeat 0 -100px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h1 {
+  font-size: 60px;
+  font-family: "Audrey-normal";
+}
+
+#showcase p {
+  font-weight: bold;
 }
