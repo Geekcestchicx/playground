@@ -6,6 +6,7 @@ body {
 }
 
 /* Global */
+
 .container {
   width: 80%;
   margin: auto;
@@ -148,7 +149,7 @@ header a:hover {
 
 footer {
   margin-top: 10px;
-  padding: 20px;
+  padding: 10px;
   color: #ffffff;
   background-color: #a18fd8;
 }
@@ -171,11 +172,6 @@ footer ul {
 
 footer p {
   float: left;
-}
-
-.band {
-  height: 25px;
-  padding: 15px;
 }
 
 footer a:hover {
