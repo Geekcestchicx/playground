@@ -159,7 +159,7 @@ header a:hover {
 aside#sidebar {
   float: right;
   width: 30%;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 /* Main-column */
@@ -168,12 +168,64 @@ article#main-col {
   float: left;
   width: 65%;
   margin-top: 10px;
-}
-
-#main {
-  margin: 10px;
   padding: 10px;
   font: "Alcubierre";
+}
+
+/* Projects */
+
+ul#projects li {
+  list-style: none;
+  padding: 20px;
+  border: #a18fd8 solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
+.quote input,
+.quote textarea {
+  width: 90%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.quote textarea {
+  padding-bottom: 20px;
+}
+
+/* Projects-page newsletter */
+
+aside#sidebar .newsletter2 input {
+  width: 90%;
+  padding: 5px;
+}
+
+#sidebar h1 {
+  display: inline;
+}
+
+.button-2 {
+  height: 30px;
+  background: #a18fd8;
+  border: 0;
+  padding: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  font: "Alcubierre";
+  font-size: 10px;
+}
+
+.button-3 {
+  height: 40px;
+  background: #a18fd8;
+  border: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  font: "Alcubierre";
+  font-size: 12px;
+  display: inline-block;
 }
 
 /* Footer */
@@ -208,4 +260,8 @@ footer p {
 footer a:hover {
   color: #cccccc;
   font-weight: bold;
+}
+
+#projects {
+  font-family: "Audrey-normal";
 }
